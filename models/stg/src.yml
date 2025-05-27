@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: src
+    database: MONI_DB
+    schema: DBT_SRC
+    tables:
+      - name: CUSTOMERS
+      - name: PRODUCTS
+  - name: trans
+    database: MONI_DB
+    schema: DBT_TRANS
+    tables:
+      - name: ORDERS
