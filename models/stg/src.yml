@@ -11,3 +11,11 @@ sources:
     schema: DBT_TRANS
     tables:
       - name: ORDERS
+  - name : mart
+    database: MONI_DB
+    schema: DBT_TARGET_1
+    tables:
+      - name : STG_CUSTOMERS
+      - name : STG_PRODUCTS
+      - name : STG_ORDERS
+      - name : STG_MART
