@@ -1,0 +1,1 @@
+select {{ dbt_utils.generate_surrogate_key(['CUSTOMERID'])}} as surrogatekey, * from {{ source('mart', 'STG_CUSTOMERS') }}
