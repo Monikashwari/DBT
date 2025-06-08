@@ -13,7 +13,7 @@ sources:
       - name: ORDERS
   - name : mart
     database: MONI_DB
-    schema: DBT_TARGET_1
+    schema: DBT_TARGET
     tables:
       - name : STG_CUSTOMERS
       - name : STG_PRODUCTS
